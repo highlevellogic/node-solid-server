@@ -5,9 +5,9 @@ name: CI
 
 on:
   push:
-    branches: [ windows-fix ]
+    branches: [ windows-test ]
   pull_request:
-    branches: [ windows-fix ]
+    branches: [ windows-test ]
 
 jobs:
   build:
